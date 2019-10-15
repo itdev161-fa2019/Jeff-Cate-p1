@@ -3,10 +3,10 @@ import express from 'express';
 //Express application
 const app = express();
 const port = '3000';
-const proj = 'project 1';
+const proj = 'Project 1';
 
 //Api endpoints
-app.get('/', (req, res) => res.send(`Message displayed in browser after connecting to port ${port}`));
+app.get('/', (req, res) => res.send(`Api return displayed in browser after connecting to port ${port}.`));
 
 //Listener
 
